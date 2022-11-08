@@ -16,3 +16,7 @@ body {
 footer {
     height: 150px;
 }
+
+.capo {
+    word-wrap: break-word;
+}
