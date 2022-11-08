@@ -1,0 +1,18 @@
+main {
+    height: 700px;
+}
+
+h1 {
+    padding-top: 200px;
+    font-size: 60px;
+    font-weight: 800;
+    color: rgb(49, 0, 105);
+}
+
+body {
+    background-color: rgba(202, 0, 0, 0.769);
+}
+
+footer {
+    height: 150px;
+}
