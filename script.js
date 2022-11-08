@@ -15,8 +15,7 @@ console.log(
     `
 )
 
-let nominatore = parseInt(numero1)
-let denominatore = parseInt(numero2)
+
 let risultato = Math.round(numero1/numero2)
 
 
@@ -24,3 +23,11 @@ let risultato = Math.round(numero1/numero2)
 
 
 document.getElementById("Password").innerHTML = nome + cognome + colore_preferito + risultato;
+
+
+console.log(
+    ` 
+    ------------Password---------------
+    Password: ${nome + cognome + colore_preferito + risultato}
+    `  
+)
