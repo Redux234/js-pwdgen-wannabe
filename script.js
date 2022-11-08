@@ -1,8 +1,8 @@
 let nome = prompt("Inserire Nome")
 let cognome =prompt('Inserire Cognome')
 let colore_preferito = prompt('Inserire il colore preferito')
-let numero1 = prompt('Scegliere un numero da 1 a 100')
-let numero2 = prompt('Sceglere un altro numero')
+let numero1 = prompt('Scegliere un numero')
+let numero2 = prompt('Sceglere un altro numero più piccolo del primo')
 
 console.log(
     `
@@ -15,9 +15,12 @@ console.log(
     `
 )
 
+let nominatore = parseInt(numero1)
+let denominatore = parseInt(numero2)
+let risultato = Math.round(numero1/numero2)
 
 
 
 
 
-document.getElementById("Password").innerHTML = nome + cognome + colore_preferito;
+document.getElementById("Password").innerHTML = nome + cognome + colore_preferito + risultato;
